@@ -100,7 +100,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['responseCode']) && iss
 		'countryCode' => $module_params['param03'],
 		'currencyCode' => $module_params['param04'],
 		'transactionUnique' =>$_orderids,
-		'redirectURL' => $current_location . '/payment/cc_cardstream.php'
+		'redirectURL' => $current_location . '/payment/cc_cardstream.php',
+		'merchantData' => 'xcart-4-1'
 	);
 
 	ksort($form_data);
