@@ -53,6 +53,7 @@ Payment methods. Next, click the Configure link on the CharityClear entry in the
 Payment Methods list.
 
 | Config Option | Description |
+| :-------------|:------------|
 | Merchant ID | Enter your merchant ID here, or 0000992 for test mode. |
 | Currency Code | The 3 digit ISO currency code. Use 826 for Pounds Sterling. |
 | Country Code | The 3 digit ISO country code for your location, Use 826 for the UK. |
