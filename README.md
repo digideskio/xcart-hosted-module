@@ -21,10 +21,12 @@ Next, mouseover content in the top menu, and then click languages. Then, scroll 
 the bottom of the page to the “Add New Entry” field. Each of the following rows needs
 to be copy and pasted as appropriate into the form, and then the form submitted - For
 each row, the label stays as the default value (Label)
-Variable: Value:
-lbl_cc_cardstream_merchantid Merchant ID
-lbl_cc_cardstream_currencycode Currency Code
-lbl_cc_cardstream_countrycode Country Code
+
+| Variable | Value |
+| :-------------|:------------|
+| lbl_cc_cardstream_merchantid | Merchant ID |
+| lbl_cc_cardstream_currencycode | Currency Code |
+| lbl_cc_cardstream_countrycode | Country Code |
 
 **Step 4:**
 
