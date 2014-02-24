@@ -51,6 +51,8 @@ CharityClear entry, then click Apply Changes if required.
 
 **Module Configuration**
 
+![Xcart Config settings](/images/config-page.png)
+
 To access the configuration page mouseover Settings in the top menu and then click
 Payment methods. Next, click the Configure link on the CharityClear entry in the
 Payment Methods list.
