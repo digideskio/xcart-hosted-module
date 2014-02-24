@@ -1,6 +1,3 @@
-xcart-hosted-module
-===================
-
 Installation Instructions
 =========================
 
