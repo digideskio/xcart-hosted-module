@@ -39,7 +39,6 @@
  * @see        ____file_see____
  */
 
-	//die(var_dump($_POST));
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['responseCode']) && isset($_POST['state'])) {
     require './auth.php';
 
@@ -73,8 +72,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['responseCode']) && iss
 
     }
 
-
-//die(var_dump($bill_output,$oid,$_POST));
     require('payment_ccend.php');
 
 } else {
@@ -101,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['responseCode']) && iss
 		'currencyCode' => $module_params['param04'],
 		'transactionUnique' =>$_orderids,
 		'redirectURL' => $current_location . '/payment/cc_cardstream.php',
-		'merchantData' => 'xcart-4-1'
+		'merchantData' => 'xcart-4-2'
 	);
 
 	ksort($form_data);
