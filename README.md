@@ -14,48 +14,37 @@ Then select the update.sql file provided and finally click Apply.
 
 **Step 3:**
 
-Next, mouseover content in the top menu, and then click languages. Then, scroll to
-the bottom of the page to the “Add New Entry” field. Each of the following rows needs
-to be copy and pasted as appropriate into the form, and then the form submitted - For
-each row, the label stays as the default value (Label)
-
-| Variable | Value |
-| :-------------|:------------|
-| lbl_cc_cardstream_merchantid | Merchant ID |
-| lbl_cc_cardstream_currencycode | Currency Code |
-| lbl_cc_cardstream_countrycode | Country Code |
-
-**Step 4:**
-
 Next, mouseover Tools in the top menu, and then click maintenance. Then, scroll
 down until you see “Clear templates/X-Cart cache” – Click the clear button below
 this.
 
-**Step 5:**
+**Step 4:**
 
-Next, mouseover Settings in the top menu, and then click Payment Methods. Scroll
-to the bottom of the page to the Payment Gateways dropdown, then select
-CharityClear from the list. Finally, click Add.
-If this is a new instillation of X-Cart, you will need to choose “Accept credit cards”,
-then click next, then choose CharityClear from the “All other payment solutions”
-dropdown, then click add. Next, click the CharityClear checkbox and then click Next.
+Next, mouseover Settings in the top menu, and then click Payment Methods. Switch to 
+the Payment Gateways tab and select ‘Cardstream - Hosted’ from the Payment Gateways 
+drop down. Finally, click Add.
+
+The following is only applicable to older versions of X-cart.
+If this is a fresh installation of X-Cart, you may need to choose “Accept credit cards”,
+then click next, then choose Cardstream from the “All other payment solutions”
+dropdown, then click add. Next, click the Cardstream checkbox and then click Next.
 Finally, click finish.
 
-**Step 6:**
+**Step 5:**
 
 From the Payment Methods list, make sure the checkbox directly to the left of the
-CharityClear entry, then click Apply Changes if required.
+Cardstream entry is checked, then click Apply Changes.
 
 **Module Configuration**
 
 ![Xcart Config settings](/images/config-page.png)
 
 To access the configuration page mouseover Settings in the top menu and then click
-Payment methods. Next, click the Configure link on the CharityClear entry in the
+Payment methods. Next, click the Configure link on the Cardstream entry in the
 Payment Methods list.
 
 | Config Option | Description |
 | :-------------|:------------|
-| Merchant ID | Enter your merchant ID here, or 0000992 for test mode. |
+| Merchant ID | Enter your merchant ID here, or 100001 for test mode. |
 | Currency Code | The 3 digit ISO currency code. Use 826 for Pounds Sterling. |
 | Country Code | The 3 digit ISO country code for your location, Use 826 for the UK. |
