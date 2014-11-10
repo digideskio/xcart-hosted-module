@@ -55,9 +55,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['responseCode']) && iss
     $bill_output['billmes'] = ($reason ? $reason : "Reason did not set") . ' (TransactionID: ' . $txnid.')';
     $bill_output['sessid'] = $sessid;
 
-	if ($bill_output['code'] == 0){
+	if ($bill_output['code'] === 0){
 		$bill_output['code'] = 1;
 	}else{
+		$bill_output['code'] = 2;
 		$bill_output['billmes'] = $_POST['responseMessage'];
 	}
 
