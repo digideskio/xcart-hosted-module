@@ -1,3 +1,8 @@
+Compatibility
+=========================
+
+Compatible with Version 4. 
+
 Installation Instructions
 =========================
 
